@@ -6,7 +6,7 @@ grep -o '^[^:]*' /etc/passwd | sort
 
 ## Задание 2
 ```bash
-awk '{print $2,$3}' protocols | sort -nr | head -5
+awk '$2 ~ /^[0-9]+$/ {print $2, $1}' protocols | sort -nr | head -n 5
 ```
 
 ## Задание 3
