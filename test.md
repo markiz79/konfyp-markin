@@ -1,4 +1,11 @@
-grep -o
+## Пример команды
 
+```bash
+ls -la
+```
 
-pjfpjfpwjf
+## Пример кода Python
+
+```python
+print("Hello, GitHub!")
+```
