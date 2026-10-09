@@ -8,6 +8,10 @@ ls -la
 
 ```python
 print("Hello, GitHub!")
+```
+
+
+
 
 ## Задание 1
 
