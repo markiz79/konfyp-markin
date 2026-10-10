@@ -1,0 +1,7 @@
+#!/bin/bash
+
+find . -type f | grep -E "\.(c|js|py)$" | while read file
+do
+	echo "Файл: $file"
+	head -n 1 "$file" | grep -E "^#|^//"
+done
