@@ -1,0 +1,12 @@
+
+{
+  "name": "minimal",
+  "type": "directory",
+  "children": [
+    {
+      "name": "hello.txt",
+      "type": "file",
+      "content": "Это минимальная виртуальная файловая система.\n"
+    }
+  ]
+}
