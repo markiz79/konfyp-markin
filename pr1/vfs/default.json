@@ -1,0 +1,44 @@
+{
+  "name": "demo-vfs",
+  "type": "directory",
+  "children": [
+    {
+      "name": "README.txt",
+      "type": "file",
+      "content": "Виртуальная файловая система.\nДемонстрация команд head, ls и cd.\nТретья строка файла.\nЧетвертая строка файла.\nПятая строка файла.\n"
+    },
+    {
+      "name": "docs",
+      "type": "directory",
+      "children": [
+        {
+          "name": "guide.txt",
+          "type": "file",
+          "content": "Руководство пользователя.\nКоманда ls показывает содержимое каталога.\nКоманда cd меняет текущий каталог.\n"
+        },
+        {
+          "name": ".hidden",
+          "type": "file",
+          "content": "Скрытый файл.\n"
+        }
+      ]
+    },
+    {
+      "name": "src",
+      "type": "directory",
+      "children": [
+        {
+          "name": "app",
+          "type": "directory",
+          "children": [
+            {
+              "name": "main.cpp.txt",
+              "type": "file",
+              "content": "Пример вложенного файла.\n"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
