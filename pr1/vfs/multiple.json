@@ -1,0 +1,33 @@
+
+{
+  "name": "multiple",
+  "type": "directory",
+  "children": [
+    {
+      "name": "first.txt",
+      "type": "file",
+      "content": "Первый файл.\n"
+    },
+    {
+      "name": "second.txt",
+      "type": "file",
+      "content": "Второй файл.\n"
+    },
+    {
+      "name": "third.txt",
+      "type": "file",
+      "content": "Третий файл.\n"
+    },
+    {
+      "name": "documents",
+      "type": "directory",
+      "children": [
+        {
+          "name": "report.txt",
+          "type": "file",
+          "content": "Документ внутри каталога.\n"
+        }
+      ]
+    }
+  ]
+}
