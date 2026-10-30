@@ -1,0 +1,36 @@
+
+{
+  "name": "nested",
+  "type": "directory",
+  "children": [
+    {
+      "name": "level1",
+      "type": "directory",
+      "children": [
+        {
+          "name": "level2",
+          "type": "directory",
+          "children": [
+            {
+              "name": "level3",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "level4",
+                  "type": "directory",
+                  "children": [
+                    {
+                      "name": "deep.txt",
+                      "type": "file",
+                      "content": "Файл на четвёртом уровне вложенности.\n"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
