@@ -43,7 +43,7 @@ public:
     }
 
     int run() {
-        std::cout << "=== Параметры запуска ===\n"
+        std::cout << "Параметры запуска\n"
                   << "VFS: " << config.vfsPath.string() << "\n"
                   << "Лог: " << config.logPath.string() << "\n"
                   << "Стартовый скрипт: "
