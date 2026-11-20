@@ -1,0 +1,5 @@
+package = "A"
+repository = "repository.txt"
+test_mode = true
+output = "test_graph.png"
+max_depth = 2
